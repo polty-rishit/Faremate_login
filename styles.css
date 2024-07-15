@@ -127,3 +127,23 @@ p>a:hover
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
 }
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg,#000000,#002D62,#007FFF,#82DBFF,
+    #00A2E2);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+   100%{
+    background-position: 0% 50%;
+   }
+}
